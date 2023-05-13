@@ -44,7 +44,7 @@ REQUISITOS:
 function guardarTragos(tragosQueue) {
   let tragos = {};
   let trago;
-
+// Esto es un While.
   while (tragosQueue.size() > 0) {
     trago = tragosQueue.dequeue();
     if (tragos.hasOwnProperty(trago)) {
